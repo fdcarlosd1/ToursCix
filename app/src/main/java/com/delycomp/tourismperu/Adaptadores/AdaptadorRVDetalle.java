@@ -12,7 +12,6 @@ import com.bumptech.glide.Glide;
 import com.delycomp.tourismperu.Activities.SlideImage;
 import com.delycomp.tourismperu.Entidades.FotoTuristica;
 import com.delycomp.tourismperu.R;
-import com.delycomp.tourismperu.Activities.SpaceFhoto;
 
 import java.util.ArrayList;
 import java.util.List;

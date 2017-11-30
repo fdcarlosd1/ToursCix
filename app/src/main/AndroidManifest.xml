@@ -42,9 +42,6 @@
             android:value="@string/google_maps_key" />
 
         <activity
-            android:name=".Activities.SpaceFhoto"
-            android:theme="@style/AppFullScreenTheme" />
-        <activity
             android:name=".Activities.DetalleLugarActivity"
             android:theme="@style/Theme.AppCompat.Light" />
         <activity
