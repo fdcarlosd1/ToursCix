@@ -1,0 +1,39 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/container"
+    android:background="@color/white"
+    tools:context="layout.PrincipalFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <Button
+        android:layout_width="match_parent"
+        android:layout_margin="5dp"
+        android:textStyle="bold"
+        android:id="@+id/butonBonito"
+        android:textSize="13sp"
+        android:drawableStart="@drawable/ic_menu_gallery11"
+        android:drawablePadding="8dp"
+        android:layout_marginTop="-5dp"
+        android:textColor="@color/white"
+        android:backgroundTint="#ef9a9a"
+        android:layout_gravity="center_horizontal"
+        android:layout_height="wrap_content"
+        android:text="@string/lugar_recom"/>
+   <android.support.v7.widget.RecyclerView
+       android:layout_margin="-20dp"
+       android:layout_marginTop="60dp"
+       android:layout_width="match_parent"
+       android:layout_height="match_parent"
+       android:id="@+id/recycler">
+
+   </android.support.v7.widget.RecyclerView>
+    <ProgressBar
+        android:id="@+id/loading_spinnerLista"
+        android:layout_centerInParent="true"
+        style="?android:progressBarStyleLarge"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center" />
+</FrameLayout>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:id="@+id/viewgroup"
+    android:layout_height="fill_parent">
+    <SeekBar
+        android:max="40"
+
+        android:layout_height="wrap_content"
+        android:id="@+id/seekBar1"
+        android:layout_width="fill_parent"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="74dp"/>
+    <TextView
+        android:text="Change Hour Range"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView1"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:layout_width="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true">
+            </TextView>
+    <TextView android:text="Only most recent positions" android:layout_height="wrap_content" android:id="@+id/textView2" android:layout_width="wrap_content" android:layout_below="@+id/textView1" android:layout_centerHorizontal="true" android:layout_marginTop="15dp"></TextView>
+
+</RelativeLayout>

@@ -1,0 +1,17 @@
+/* position of POI-radar*/
+
+.radarContainer_left {
+	position:absolute;
+	top:35px;
+	left:0px;
+	width:120px;
+	height:120px;
+}
+
+.radarContainer_right {
+	position:absolute;
+	top:35px;
+	right:0px;
+	width:120px;
+	height:120px;
+}

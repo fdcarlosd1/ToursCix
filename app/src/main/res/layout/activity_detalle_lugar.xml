@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_detalle_lugar"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#3F51B5"
+    tools:context="com.delycomp.tourismperu.Activities.DetalleLugarActivity">
+         <TextView
+             android:layout_width="match_parent"
+             android:id="@+id/descr_detalle"
+             android:padding="8dp"
+             android:textColor="@color/black"
+             android:background="@color/white"
+             android:text="La catedral de Chiclayo es una de las más hermosas del país. Se llama ‘Santa María Catedral’ y su construcción es de estilo neoclásico y data de 1869-71 (1928-56) con diseño y planos encargados a Gustave Eiffel en cuyo boceto consigna el nombre de ‘Rose Meridionale’ (rosa del sur) que hace referencia a su ubicación en el hemisferio sur, más no en la zona norte del país. Sus campanarios albergan un conjunto de cuatro campanas que fueran traídas desde Alemania."
+             android:gravity="center"
+             android:layout_height="wrap_content"
+             android:layout_alignParentStart="true" />
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_below="@+id/descr_detalle"
+                android:id="@+id/linearlayout"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:padding="7dp"
+                    android:layout_width="wrap_content"
+                    android:layout_weight="0.8"
+                    android:textColor="@color/white"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/telefono_det"/>
+                <TextView
+                    android:padding="7dp"
+                    android:layout_width="wrap_content"
+                    android:layout_weight="1"
+                    android:id="@+id/tarifaaaa"
+                    android:background="#cfe0fe"
+                    android:layout_height="wrap_content"/>
+            </LinearLayout>
+    <TextView
+        android:layout_width="match_parent"
+        android:id="@+id/horarioatencion"
+        android:gravity="center"
+        android:background="#9aa6ff"
+        android:padding="7dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/linearlayout"/>
+    <android.support.v7.widget.RecyclerView
+        android:background="@color/white"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/horarioatencion"
+        android:id="@+id/recycler_det">
+    </android.support.v7.widget.RecyclerView>
+    <fragment xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:id="@+id/map11"
+        android:layout_below="@id/recycler_det"
+        android:name="com.google.android.gms.maps.SupportMapFragment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+
+
+</RelativeLayout>

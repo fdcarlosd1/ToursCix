@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/inicio"
+            android:icon="@drawable/octagram"
+            android:title="Inicio" />
+
+        <item
+            android:id="@+id/realidad"
+            android:icon="@drawable/ic_menu_camera"
+            android:title="@string/RA" />
+        <item
+            android:id="@+id/map"
+            android:icon="@drawable/google_maps"
+            android:title="@string/maps" />
+        <item
+            android:id="@+id/InfoApp"
+            android:icon="@drawable/ic_menu_gallery11"
+            android:title="ToursCix" />
+
+    </group>
+
+    <item android:title="@string/Ajustes">
+        <menu>
+            <item
+                android:id="@+id/idioma"
+                android:icon="@drawable/comment_processing_outline"
+                android:title="@string/Idioma" />
+        </menu>
+    </item>
+
+</menu>

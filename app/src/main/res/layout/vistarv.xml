@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:id="@+id/container11"
+    android:background="#CEECF5"
+    android:layout_marginBottom="10dp"
+    android:paddingStart="10dp"
+    android:paddingEnd="10dp"
+    android:paddingTop="5dp"
+
+    android:layout_height="wrap_content">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/TituloText"
+        android:textSize="23sp"
+        android:text="PLAZA DE ARMAS DE CHICLAYO"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:text=" Carlos David Farro Diaz  Carlos David Farro Diaz  Carlos David Farro Diaz  Carlos David Farro Diaz  Carlos David Farro Diaz  Carlos David Farro Diaz  Carlos David Farro Diaz  Carlos David Farro Diaz  Carlos David Farro Diaz  Carlos David Farro Diaz  Carlos David Farro Diaz  Carlos David Farro Diaz "
+        android:textColor="#424242"
+        android:layout_height="wrap_content"
+       android:layout_below="@+id/TituloText"
+        android:id="@+id/DescText"
+        />
+    <LinearLayout
+        android:layout_marginTop="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/DescText"
+        android:orientation="horizontal">
+        <ImageButton
+            android:layout_width="160dp"
+            android:background="#CEECF5"
+            android:layout_height="140dp"
+            android:id="@+id/imageX1"/>
+        <ImageButton
+            android:layout_marginStart="5dp"
+            android:background="#CEECF5"
+            android:layout_width="160dp"
+            android:layout_height="140dp"
+            android:id="@+id/imageX2"/>
+    </LinearLayout>
+
+</RelativeLayout>

@@ -1,0 +1,131 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/fragment_inicio"
+    tools:context="layout.InicioFragment">
+    <ScrollView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+    <!-- TODO: Update blank fragment layout -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_margin="5dp"
+        android:layout_height="120dp"
+        android:orientation="horizontal"
+        android:clickable="true"
+        android:background="@drawable/ripple">
+
+        <ImageView
+
+            android:layout_width="129dp"
+            android:layout_height="162dp"
+            android:src="@drawable/que_es"
+            android:layout_gravity="center_vertical"
+            android:layout_marginStart="-20dp"
+            android:id="@+id/pruebaaa" />
+        <TextView
+            android:textSize="15sp"
+            android:layout_marginStart="-15dp"
+            android:layout_width="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginEnd="10dp"
+            android:textColor="@color/white"
+            android:layout_height="wrap_content"
+            android:text="@string/descripcio_app"
+            android:layout_weight="1"
+            />
+    </LinearLayout>
+        <LinearLayout
+            android:layout_margin="5dp"
+            android:clickable="true"
+            android:layout_width="match_parent"
+            android:layout_height="120dp"
+            android:background="@drawable/ripplear"
+            android:orientation="horizontal">
+            <TextView
+                android:textSize="15sp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:textColor="@color/white"
+                android:layout_marginEnd="10dp"
+                android:layout_gravity="center_vertical"
+                android:text="@string/realidadAumentada"
+               android:layout_weight="1" />
+            <ImageView
+                android:layout_marginEnd="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="180dp"
+                android:layout_gravity="center_vertical"
+                android:src="@drawable/realidaduamentada"
+                android:layout_weight="3"
+                android:id="@+id/imageAR" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_margin="5dp"
+            android:layout_width="match_parent"
+            android:clickable="true"
+            android:background="@drawable/ripplegps"
+            android:layout_height="130dp"
+            android:orientation="horizontal">
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="180dp"
+                    android:layout_gravity="center_vertical"
+                    android:src="@drawable/geo"
+                    android:layout_marginStart="10dp"
+                    android:layout_weight="3"
+                    android:id="@+id/imageGeo" />
+                <TextView
+                    android:textSize="15sp"
+                    android:layout_gravity="center_vertical"
+                    android:textColor="@color/white"
+                    android:layout_marginEnd="10dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/geoloca"
+                    android:layout_weight="1"
+                    android:layout_marginStart="10dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_margin="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="120dp"
+            android:clickable="true"
+            android:background="@drawable/ripplelist"
+            android:orientation="horizontal">
+
+                <TextView
+                    android:textSize="15sp"
+                    android:layout_width="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:textColor="@color/white"
+                    android:layout_height="wrap_content"
+                    android:text="@string/lista_inicio"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginEnd="10dp"
+                    android:layout_weight="1"
+                    />
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="180dp"
+                    android:layout_marginEnd="10dp"
+                    android:layout_gravity="center_vertical"
+                    android:src="@drawable/lista"
+                    android:layout_weight="3"
+                    android:id="@+id/imageLista" />
+            </LinearLayout>
+    </LinearLayout>
+    </ScrollView>
+</FrameLayout>
