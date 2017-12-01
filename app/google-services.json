@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "283946483564",
+    "firebase_url": "https://tourscix.firebaseio.com",
+    "project_id": "tourscix",
+    "storage_bucket": "tourscix.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:283946483564:android:87db84e589ad93f1",
+        "android_client_info": {
+          "package_name": "com.delycomp.tourismperu"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "283946483564-rlmk542i6ahs3ev5433dugnoocioaiq4.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.delycomp.tourismperu",
+            "certificate_hash": "2d15cff715e0b95099dcf8d6d81c271afd5d0d77"
+          }
+        },
+        {
+          "client_id": "283946483564-p6bs7v02gui23nipmk6c826u3f5h7r69.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCFq38wLGPkoGxfFqmPNyZTp6T4nS1KyRo"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "283946483564-p6bs7v02gui23nipmk6c826u3f5h7r69.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
